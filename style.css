@@ -47,6 +47,7 @@ main.blog article {
 
 main.blog article h2 {
   font-size: 1.25em;
+  margin: 5px 5px;
 }
 
 main.blog article p {
