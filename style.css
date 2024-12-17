@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style: none;
   text-decoration: none;
 }
 
@@ -13,16 +12,30 @@ h1 {
   font-size: 2.5em;
   margin-bottom: 10px;
 }
-main.about {  
-  padding: 20px;
+ul.skills {
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+.about table, th, td {
+  padding: 10px;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+  align-items: center;
+  justify-content: center;
+}
+
+section.about {
+  padding: 50px 20px;
 }
 .about{
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
+
 main.portfolio .gallery {
   display: block;
   gap: 15px;
