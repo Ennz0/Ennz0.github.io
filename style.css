@@ -52,7 +52,7 @@ main.portfolio .gallery img {
 }
 
 main.blog article {
-  background-color: #e2bc90;
+  background-color: #F3C4FB;
   padding: 10px;
   border: 1px solid #000000;
   margin-bottom: 10px;
@@ -72,7 +72,7 @@ main.contact form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  background: #E1E5FE;
+  background: #F3C4FB;
   max-width: 400px;
   max-height: 600px;
   padding: 20px;
