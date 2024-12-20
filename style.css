@@ -142,6 +142,10 @@ header {
   background: #F9F1ED;
 }
 
+.intro .btn1:hover {
+  background: #af9fee;
+}
+
 footer {
   text-align: center;
   padding: 10px;
